@@ -52,6 +52,5 @@ public class Main {
         var Employees2 = Employees + 94;
         var WorkingHours = Employees2 / 8;
         System.out.println(String.format("Всего работников в компании - %s человек.\nЕсли в компании работает %s человек, то всего %s часов работы может быть поделено между сотредниками.", Employees, Employees2, WorkingHours));
-
     }
 }
