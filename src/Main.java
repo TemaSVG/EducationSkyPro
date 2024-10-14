@@ -45,9 +45,11 @@ public class Main {
         System.out.println("Остаток от деления массы " + remainder);
 
         System.out.println("Task 8");
-        var Employees = 640 / 8;
+        var openingHours = 640;
+        var hourDay = 8;
+        var Employees = openingHours / hourDay;
         var EmployeesNew = Employees + 94;
-        var WorkingHours = EmployeesNew * 8;
+        var WorkingHours = openingHours / EmployeesNew;
         System.out.println(String.format("Всего работников в компании - %s человек.\nЕсли в компании работает %s человек, то всего %s часов работы может быть поделено между сотредниками.", Employees, EmployeesNew, WorkingHours));
     }
 }
